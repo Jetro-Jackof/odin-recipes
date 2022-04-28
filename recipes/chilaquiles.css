@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    font-size: 24px;
+}
+
+div{
+    display: inline-block;
+}
+
+img {
+    max-height: 300px;
+    align: left;
+}
+
+#description{
+    display: inline;
+}
+
+h3 {
+    background-color: #add8e6;
+
+}
+h4 {
+    font-family: 'Times New Roman';
+}
+
+p {
+    text-align: center;
+}
