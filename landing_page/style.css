@@ -38,9 +38,9 @@ ul li{
 
 .text-left {
     margin-left: 150px;
-    margin-right: 40%;
+    margin-right: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #bigone {
@@ -56,6 +56,7 @@ ul li{
     color: #E5E7EB;
     margin-top: 0%;
     margin-bottom: 0%;
+    margin-right: 5px;
 }
 
 button{
@@ -71,10 +72,24 @@ button{
 }
 
 .img1{
-    width: auto;
+    width: 1500px;
     height: auto;
     margin-right: 150px;
+    margin-left: 125px;
     margin-top: 20px;
+    margin-bottom: 60px;
     background-color: gray;
     color: #E5E7EB;
+    padding: 75px 0;
+    text-align: center;
+}
+
+.part3{
+    display: flex;
+}
+
+.info-title{
+    text-align: center;
+    font-size: large;
+    justify-content: center;
 }
