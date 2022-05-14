@@ -23,6 +23,7 @@ ul li{
 .logo{
     font-size: 18px;
     margin-left: 150px;
+    margin-right: 50%;
 }
 .right-links{
     margin-left: auto;
@@ -32,30 +33,48 @@ ul li{
 .part2{
     background-color: #1F2937;
     display: flex;
+    
 }
 
 .text-left {
     margin-left: 150px;
+    margin-right: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #bigone {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    margin-top: 20px;
+    margin-bottom: 0%;
 }
 
 #second-text{
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 button{
     background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: #F9FAF8;
+    margin-top: 3px;
+    font-size: 15px;
+    width: 120px;
+    height: 30px;
+    align-items: center;
 }
 
 .img1{
     width: auto;
     height: auto;
     margin-right: 150px;
+    margin-top: 20px;
+    background-color: gray;
+    color: #E5E7EB;
 }
