@@ -9,6 +9,7 @@ body{
     display: flex;
     color: white;
     align-items: center;
+    
 }
 
 ul {
@@ -86,10 +87,42 @@ button{
 
 .part3{
     display: flex;
+    flex-direction: column;
 }
 
 .info-title{
     text-align: center;
-    font-size: large;
+    font-size: 36px;
     justify-content: center;
+    font-weight: bold;
+    margin-top: 0%;
+    color: #1F2937;    
+}
+
+.squares{
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    height: 175px;
+    width: 175px;
+    border-color: #3882F6;
+    border-width: 4px;
+    border-style: solid ;
+    border-radius: 10px;
+    margin-bottom: 0%;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.squares-text{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    width: 175px;
+    margin-left: 35px;
+    margin-left: 35px;
 }
