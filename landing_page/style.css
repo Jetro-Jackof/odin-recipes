@@ -34,7 +34,6 @@ ul li{
 .part2{
     background-color: #1F2937;
     display: flex;
-    
 }
 
 .text-left {
@@ -105,15 +104,15 @@ button{
 }
 
 .square {
-    height: 175px;
-    width: 175px;
+    height: 180px;
+    width: 180px;
     border-color: #3882F6;
     border-width: 4px;
     border-style: solid ;
     border-radius: 10px;
     margin-bottom: 0%;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 44px;
+    margin-right: 44px;
 }
 
 .squares-text{
@@ -122,7 +121,50 @@ button{
 }
 
 .text{
-    width: 175px;
-    margin-left: 35px;
-    margin-left: 35px;
+    width: 225px;
+    margin-left: 45px;
+    margin-left: 45px;
+    font-size: 25px;
+}
+
+.part4{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.text2{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 750px;
+    margin-bottom: 0%;
+}
+
+.text3{
+    font-weight: bold;
+    margin-top: 0%;
+    margin-left: 550px;
+}
+
+.part5{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.square3{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #E5E7EB;
+}
+
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
 }
