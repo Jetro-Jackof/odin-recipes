@@ -160,8 +160,20 @@ button{
     margin-left: 150px;
     margin-right: 150px;
     color: #E5E7EB;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
+.last-button{
+    margin-left: 350px;
+    margin-top: auto;
+}
+
+.last-button button{
+    border-color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+}
 
 .footer{
     background-color: #1F2937;
