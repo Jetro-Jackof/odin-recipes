@@ -17,7 +17,11 @@ function playRound( playerSelection, computerSelection) {
         return "You Lose! Scissors beats Paper"
     } else if ((player === 'scissors') && (computerSelection ==='rock')){
         return "You Lose! Rock beats Scissors"
-    } else ;{
+    } else if((player === 'rock') && (computerSelection ==='scissors')){
+        return "You Win"
+    }else if((player === 'scissors') && (computerSelection ==='paper')){
+        return "You Win"
+    }else ((player === 'paper') && (computerSelection ==='rock'));{
         return "You Win"
     }
 
@@ -43,9 +47,21 @@ function playRound( playerSelection, computerSelection) {
             player += 1
         } else if (currentRound == "Play again!"){
             continue
-        } else {
+        } 
+        else {
             computer += 1
         }
+    //if ((player ===0 )&& (computer ===3)){
+    //    console.log("You lose agains the computer 3-0")
+    //    break
+    //}else if((computer===0)&&(player===3)){
+    //    console.log("You win 3-0")
+    //    break
+    //} else if(player>computer){
+    //    console.log("You win,Congratulations")
+    //}else {
+    //    console.log("You lose, Try again!")
+    //}
     console.log("Player score " + player)
     console.log("Computer score "+ computer)
 
